@@ -7,14 +7,11 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'msi'
   url           = $url
-  url64bit      = $url64
 
   softwareName  = 'SceneBuilder*'
 
   checksum      = '13B55C0832178B7756F0BAAABC4B3BC8B2BC6687C0AD3CA55137256C57FF6A49'
   checksumType  = 'sha256'
-  checksum64    = '13B55C0832178B7756F0BAAABC4B3BC8B2BC6687C0AD3CA55137256C57FF6A49'
-  checksumType64= 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes= @(0)
