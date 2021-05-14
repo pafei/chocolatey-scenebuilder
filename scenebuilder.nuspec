@@ -42,10 +42,10 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://opensource.org/licenses/BSD-3-Clause</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <projectSourceUrl>https://github.com/gluonhq/scenebuilder</projectSourceUrl>
+    <docsUrl>https://docs.gluonhq.com/scenebuilder/</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <bugTrackerUrl>https://github.com/gluonhq/scenebuilder/issues/</bugTrackerUrl>
     <tags>scenebuilder scene-builder JavaFX Gluon</tags>
     <summary>Scene Builder provided by Gluon</summary>
     <description>Scene Builder is an open source tool that allows for drag and drop design of JavaFX user interfaces.</description>
