@@ -4,12 +4,11 @@
 
 1. `choco uninstall scenebuilder` with admin rights
 2. Update $url in chocolateyinstall.ps1
-3. Update checkusm in the same file `curl $url | sha256sum`
+3. Update checkusm in the same file `certutil -hashfile $url SHA256`
 4. Update `version` in `scenebuilder.nuspec`
-5. Delete old .nupkg file: `git rm scenebuilder.17.0.0.nupkg`
 6. Build pack `choco pack`
 7. Test locally `choco install scenebuilder -dv -s .`
-8. Push `choco push scenebuilder.18.0.0.nupkg -s https://push.chocolatey.org/`
+8. Push `choco push scenebuilder.19.0.0.nupkg -s https://push.chocolatey.org/`
 
 
 ## Links
