@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>19.0.0</version>
+    <version>21.0.0</version>
     <packageSourceUrl>https://github.com/pafei/chocolatey-scenebuilder</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Platurous</owners>
@@ -38,7 +38,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://gluonhq.com/products/scene-builder/</projectUrl>
     <iconUrl>https://cdn.statically.io/gh/pafei/chocolatey-scenebuilder/main/icons/scenebuilder.png</iconUrl>
-    <copyright>© 2021 Gluon</copyright>
+    <copyright>© 2016 - 2023 Gluon</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://opensource.org/licenses/BSD-3-Clause</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
