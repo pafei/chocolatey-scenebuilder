@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-    $url        = 'https://github.com/gluonhq/scenebuilder/releases/download/21.0.0/SceneBuilder-21.0.0.msi'
+    $url        = 'https://github.com/gluonhq/scenebuilder/releases/download/22.0.0/SceneBuilder-22.0.0.msi'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'SceneBuilder*'
 
-  checksum      = '3427bfd216062fd52592a641a87839f6adbbd849599994881acdd0750c554b69'
+  checksum      = 'e118ed7180a51f5b00eab04b6172ca84c0a6e44c3253b4b74d8e2937321ee19c'
   checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""

@@ -8,7 +8,7 @@
 4. Update `version` in `scenebuilder.nuspec`
 6. Build pack `choco pack`
 7. Test locally `choco install scenebuilder -dv -s .`
-8. Push `choco push --apikey <key> scenebuilder.21.0.0.nupkg -s https://push.chocolatey.org/`
+8. Push `choco push --apikey <key> scenebuilder.22.0.0.nupkg -s https://push.chocolatey.org/`
 
 The apikey can be found in the chocolatey account settings.
 
