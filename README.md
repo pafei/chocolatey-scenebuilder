@@ -4,11 +4,11 @@
 
 1. `choco uninstall scenebuilder` with admin rights
 2. Update $url in chocolateyinstall.ps1
-3. Update checkusm in the same file `certutil -hashfile $url SHA256`
+3. Update the checkusm in the same file `certutil -hashfile <downloaded msi-file> SHA256`
 4. Update `version` in `scenebuilder.nuspec`
 6. Build pack `choco pack`
 7. Test locally `choco install scenebuilder -dv -s .`
-8. Push `choco push --apikey <key> scenebuilder.22.0.0.nupkg -s https://push.chocolatey.org/`
+8. Push `choco push --apikey <key> scenebuilder.23.0.1.nupkg -s https://push.chocolatey.org/`
 
 The apikey can be found in the chocolatey account settings.
 
